@@ -1,0 +1,27 @@
+package Ex_statement;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		int a; 
+		int b;
+		long count = 0;
+		
+		Scanner scanner =  new Scanner(System.in);
+		a = scanner.nextInt();
+		b = scanner.nextInt();
+		
+		if (a > b) {
+			int temp;
+			temp = a;
+			a = b;
+			b = temp;
+		}
+		for (int i = a ; i < b ; i ++){
+			count++;
+		}
+		System.out.println(count);
+	}
+}
