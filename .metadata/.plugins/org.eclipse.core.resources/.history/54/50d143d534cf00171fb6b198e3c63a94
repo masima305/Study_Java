@@ -1,0 +1,11 @@
+package ex_value_type;
+
+public class Ex2ValueType {
+	public static void main(String[] args) {
+		// 논리형
+		// 논리형은 참, 거짓만 저장.
+		boolean b = true;
+		
+		System.out.println(b);
+	}
+}

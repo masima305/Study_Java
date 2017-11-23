@@ -1,0 +1,14 @@
+package ex_output;
+
+import java.awt.print.Printable;
+
+public class ExOutPut {
+	public static void main(String[] args) {
+		int age = 21;
+		System.out.println("저의 나이는 "+age+"세입니다.");
+		
+		System.out.printf("저의 나이는 %d 세입니다, 동생은 %d 입니다.", age, 19);
+	
+	
+	}
+}

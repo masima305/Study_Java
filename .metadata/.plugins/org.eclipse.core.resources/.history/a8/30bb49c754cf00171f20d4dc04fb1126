@@ -1,0 +1,12 @@
+package ex_demotion;
+
+public class Ex2Operator {
+	public static void main(String[] args) {
+		// 비교연산자
+		boolean n ;
+		int n1 = 10;
+		int n2 = 20;
+		
+		n = n1 < n2;
+	}
+}

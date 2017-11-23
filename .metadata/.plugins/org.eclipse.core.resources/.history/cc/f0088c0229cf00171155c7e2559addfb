@@ -1,0 +1,12 @@
+package ex_first;
+
+public class ExTest {
+
+	int a;
+	int b;
+	
+	public static void main(String[] args) {
+	
+		System.out.println("hello world");
+	}
+}

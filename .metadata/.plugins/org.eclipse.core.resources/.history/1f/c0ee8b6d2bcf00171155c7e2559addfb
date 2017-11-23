@@ -1,0 +1,19 @@
+package ex_first;
+
+public class ExTest {
+
+	int a;
+	int b;
+	
+	public static void main(String[] args) {
+		//컴파일 시에 가장 먼저 호출되는 영역이 main메서드이다.
+		System.out.println("hello world");
+		System.out.println("안녕하세요!");
+		System.out.println(Character.toChars(((char)'안'-20)));
+		
+		//TODO 밥먹자.
+		
+		
+	}
+}
+
