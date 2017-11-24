@@ -13,7 +13,7 @@ public class ExSingleFor {
 		for (int i = 0; i < 10; i++) {
 			System.out.println(10-i);
 		}
-		for(int i = 15; i > 0; i--) {
+		for(int i = 15; i > 0; i--) { 
 			if (i%3 == 0) {
 				System.out.println(i+"는 3의 배수입니다.");
 			}
