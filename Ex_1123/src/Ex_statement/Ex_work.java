@@ -1,12 +1,13 @@
 package Ex_statement;
-
-import java.lang.invoke.SwitchPoint;
+import java.util.Scanner;
 
 public class Ex_work {
-	
 	public static void main(String[] args) {
 		//5월은 31일까지 있습니다.
-		int mon = 5;
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("월을 입력해 주세요 : ");
+		
+		int mon = scanner.nextInt();
 		int day = 0;
 		
 		switch (mon) {
@@ -30,7 +31,8 @@ public class Ex_work {
 		default:
 			day=0;
 			break;
-	
 		}
+		scanner.close();
+		System.out.println(mon+"월은 "+day+"일 까지 있습니다.");	
 	}
 }

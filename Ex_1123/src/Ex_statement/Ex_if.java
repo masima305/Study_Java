@@ -15,5 +15,6 @@ public class Ex_if {
 		if (n == 50) {
 			str = "n은 50입니다.";
 		}
+		System.out.println(str);
 	}
 }

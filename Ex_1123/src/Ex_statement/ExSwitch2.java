@@ -6,7 +6,6 @@ public class ExSwitch2 {
 		String str = "¹Ì";
 		String result = "";
 		
-		int key = 0;
 		
 		switch ( str) {
 		case "¼ö":
