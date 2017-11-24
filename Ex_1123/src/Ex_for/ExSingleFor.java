@@ -1,7 +1,10 @@
 package Ex_for;
 
+import java.util.Scanner;
+
 public class ExSingleFor {
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
 		//for문, 단일 for문/
 		// 특정 명령을 원하는만큼 반복적으로 사용하고자 하게 해줌. 
 		for (int i = 0; i < args.length; ) {
@@ -15,10 +18,16 @@ public class ExSingleFor {
 				System.out.println(i+"는 3의 배수입니다.");
 			}
 		}
+		System.out.println("--------------------------------------------------------------");
 		
-		int dan = 7;
-		for(int i = 1; i < 10 ; i++) {
-			System.out.printf("\n 7 * %d = %d",i,7*i);
+		System.out.println("단을 입력하세요");
+		int dan = scanner.nextInt();
+		if (dan > 9 || dan < 2) {
+			System.out.println("2~9사이의 값만 입력할 수 있습니다.");
+		}else {
+			for(int i = 1; i < 10 ; i++) {
+				System.out.printf("\n %d * %d = %d",dan,i,dan*i);
+			}
 		}
 	}
 }
