@@ -12,8 +12,10 @@ public class Ex6String {
 		
 		
 		System.out.println("배우를 검색하세요");
+		
 		String name = scanner.next();
 		int flag = 0;
+		
 		for (int i = 0; i < actor.length; i++) {
 			if (actor[i][0].substring(1, actor[i][0].length()-1).equals(name)){
 				System.out.println(actor[i][0]+"님의 필모그라피");
@@ -23,8 +25,8 @@ public class Ex6String {
 				}
 			}
 		}
-		if (flag == 0) {
+		if (flag == 0) 
 			System.out.println("검색결과가 없습니다.");
-		}
+		
 	}
 }

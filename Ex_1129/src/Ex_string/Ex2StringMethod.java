@@ -26,5 +26,8 @@ public class Ex2StringMethod {
 		String name2 = name.trim();
 		System.out.println(name2.length());
 		
+		String num = "100";
+		int numd = Integer.parseInt(num);
+		
 	}
 }
