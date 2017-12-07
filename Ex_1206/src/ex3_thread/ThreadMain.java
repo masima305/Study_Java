@@ -8,8 +8,6 @@ public class ThreadMain {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("메인 스레드 구동중");
 		}
-		
-		
 		System.out.println("메인 스레드 종료");
 	}
 }
