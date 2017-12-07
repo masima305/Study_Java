@@ -22,8 +22,6 @@ public class ColSet {
 		}
 		System.out.println( hs );
 		//while문을 반복하면서 해쉬에 집어넣는다.
-		//가나다라라라라라라라
-		//adadkjadhjk
 		System.out.println("----------------");
 		TreeSet<Integer> ts = new TreeSet();
 		while(true) {
