@@ -16,7 +16,7 @@ public class Main {
 			switch (selector) {
 			case 1:
 				manager.insert();
-				break;
+				break;.
 			case 2:
 				manager.delete();
 				break;	

@@ -33,7 +33,7 @@ public class Manager {
 			if(list.get(i).getName().equals(name)) {
 				list.remove(i);
 				System.out.println("===="+name+"정보삭제====");
-			}
+			} 
 		}
 	}
 	public void showInfo() {
