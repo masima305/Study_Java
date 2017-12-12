@@ -1,5 +1,6 @@
 package ex_work;
 
+
 public class Timer implements Runnable{
 	WordMaker maker = new WordMaker();
 	

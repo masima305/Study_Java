@@ -20,6 +20,7 @@ public class WordMaker {
 		}
 		System.out.println();
 	}
+	
 	public void deleteProblems(String a) {
 		for (int i = 0; i < problems.size(); i++) {
 			if (problems.get(i).equals(a)) {
@@ -27,6 +28,7 @@ public class WordMaker {
 			}
 		}
 	}
+	
 	public boolean isEnd() {
 		if (problems.size() == 0) {
 			end = true;
